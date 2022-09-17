@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "cypress": "^10.7.0"
+  },
+  "name": "datadrivencypressexcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "node-xlsx": "^0.21.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/cypress run --config pageLoadTimeout=100000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untoldstory69/dataDrivenCypressExcel.git"
+  },
+  "author": "Francis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/untoldstory69/dataDrivenCypressExcel/issues"
+  },
+  "homepage": "https://github.com/untoldstory69/dataDrivenCypressExcel#readme",
+  "description": ""
+}
